@@ -1,0 +1,45 @@
+body{
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.name{
+    padding: 10px;
+    margin-left: 30px;
+    font-size:70px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+.insta{
+    margin:40px;
+    list-style-image: url(insta.png);
+    font-size:40px;
+    letter-spacing: 2px;
+}
+.twiter{
+    margin:40px;
+    list-style-image: url(twt.png);
+    font-size:40px;
+    letter-spacing: 2px;
+}
+.youtube{
+    margin:40px;
+    list-style-image: url(youtub.png);
+    font-size:40px;
+    letter-spacing: 2px;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+    border-radius:1000000000000px;
+}
+a:hover{
+    background-color:black;
+    color:white;
+    border-radius:50px;
+    border-style: dashed;
+    padding: 10px;
+}
